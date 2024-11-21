@@ -53,3 +53,4 @@ function createPlayGround() {
 const ground = createPlayGround();
 
 let stringForPlus192 = "098102194198290294386390482486578582674678770774";
+let stringForMinus192 = "898902994998706710802806514518610614322326418422";
