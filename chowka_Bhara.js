@@ -17,3 +17,38 @@ function findIndex(string, target) {
     }
   }
 }
+
+
+function createPlayGround() {
+
+  let ground = '\n\t                  P l a y e r            \n';
+  ground += '\t   ┏━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━┓  \n';
+  ground += '\t   ┃ 0   0 ┃       ┃       ┃       ┃       ┃  \n';
+  ground += '\t   ┃       ┃   ⇦   ┃       ┃       ┃       ┃  \n';
+  ground += '\t   ┃ 0   0 ┃       ┃       ┃       ┃       ┃  \n';
+  ground += '\t   ┣━━━━━━━╋━━━━━━━╋━━━━━━━╋━━━⇩━━━╋━━━━━━━┫  \n';
+  ground += '\t   ┃ 1   2 ┃       ┃       ┃       ┃       ┃  \n';
+  ground += '\t   ┃       →       ┃       ┃       ┃   ⬆   ┃  \n';
+  ground += '\t p ┃ 4   3 ┃       ┃       ┃       ┃       ┃ p\n';
+  ground += '\t l ┣━━━━━━━╋━━━━━━━╋━━━⇩━━━╋━━━━━━━╋━━━━━━━┫ l\n';
+  ground += '\t a ┃ ➀   ➁ ┃       ┃       ┃       ┃ ➊   ➋ ┃ a\n';
+  ground += '\t y ┃       ┃       →       ⬅       ┃       ┃ y\n';
+  ground += '\t e ┃ ➂   ➃ ┃       ┃       ┃       ┃ ➌   ➍ ┃ e\n';
+  ground += '\t r ┣━━━━━━━╋━━━━━━━╋━━━⇡━━━╋━━━━━━━╋━━━━━━━┫ r\n';
+  ground += '\t   ┃       ┃       ┃       ┃       ┃       ┃  \n';
+  ground += '\t   ┃   ↓   ┃       ┃       ┃       ⬅       ┃  \n';
+  ground += '\t   ┃       ┃       ┃       ┃       ┃       ┃  \n';
+  ground += '\t   ┣━━━━━━━╋━━━⇡━━━╋━━━━━━━╋━━━━━━━╋━━━━━━━┫  \n';
+  ground += '\t   ┃       ┃       ┃ ❶   ❷ ┃       ┃       ┃  \n';
+  ground += '\t   ┃       ┃       ┃       ┃   ⇢   ┃       ┃  \n';
+  ground += '\t   ┃       ┃       ┃ ❸   ❹ ┃       ┃       ┃  \n';
+  ground += '\t   ┗━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛  \n';
+  ground += '\t                 P l a y e r                  \n';
+
+  console.log(ground.indexOf('➃'));
+  return ground;
+}
+
+
+const ground = createPlayGround();
+
