@@ -9,3 +9,11 @@ function replaceAtIndex(targetIndex, string, char) {
 
   return returnString;
 }
+
+function findIndex(string, target) {
+  for (let index = 0; index < string.length; index++) {
+    if (string[index] === target) {
+      return index;
+    }
+  }
+}
