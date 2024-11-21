@@ -52,3 +52,4 @@ function createPlayGround() {
 
 const ground = createPlayGround();
 
+let stringForMinus8 = "098102194198290294386390482486578582";
